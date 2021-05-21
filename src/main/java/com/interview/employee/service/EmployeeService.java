@@ -9,6 +9,9 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
 
+/**
+ * Service layer to process business logic
+ */
 @Service
 public class EmployeeService
 {
