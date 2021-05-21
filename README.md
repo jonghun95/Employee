@@ -15,6 +15,7 @@ http://localhost:8080/employees
 
 SAMPLE JSON
 
+<pre><code>
 {
     "name" : "Jong Lee",
     "office" : "100A",
@@ -22,6 +23,7 @@ SAMPLE JSON
     "phone" : "111-222-3333",
     "role" : "Engineer"
 }
+</code></pre>
 NOTE: The format of the phone number should be xxx-xxx-xxxx
 
 ### Update (PUT)
@@ -29,6 +31,7 @@ http://localhost:8080/employees/{id}
 
 SAMPLE JSON
 
+<pre><code>
 {
     "id": 1,
     "name" : "Jong Lee",
@@ -37,6 +40,7 @@ SAMPLE JSON
     "phone" : "111-222-3333",
     "role" : "Engineer"
 }
+</code></pre>
 
 ### Delete (DELETE)
 http://localhost:8080/employees/{id}
@@ -46,6 +50,6 @@ Actuator is running with a default setting
 Thus, the only two available by default are /health and /info
 
 http://localhost:8080/actuator/health
-http://localhost:8080/actuator/info
+<br/>http://localhost:8080/actuator/info
 
 
