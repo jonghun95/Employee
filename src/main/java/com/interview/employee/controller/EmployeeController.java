@@ -10,6 +10,9 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 import java.util.List;
 
+/**
+ * Main controller to process CRUD for employees
+ */
 @RestController
 public class EmployeeController
 {
